@@ -1,0 +1,382 @@
+body
+    position: absolute
+    width: 100%
+    bottom: 0
+    top: 0
+    display: -webkit-flex
+    flex-direction: column
+    font-size: 16px
+    background: #eeeeee
+    overflow: hidden
+.head
+    height: .42rem
+    line-height: .42rem
+    background: #ffffff
+    border-bottom: 1px solid #CCCCCC
+    .back
+        left: .1rem
+        top: 0
+        span
+            font-size: .14rem
+        i
+            font-size: .14rem
+    .more
+        right: .1rem
+        top: 0
+        
+    h3
+        text-align: center
+        font-size: .16rem
+        
+.content
+    flex: 1
+    overflow-y: auto  
+    height: auto  
+    .banner
+        height: auto
+        img
+            width: 100%
+            height: 100%
+    .info
+        background: #ffffff
+        padding-bottom: .12rem
+        padding-left: .12rem
+        padding-right: .12rem
+        h4
+            line-height: .4rem  
+            font-size: .16rem
+            color: #4f99f2
+        ul li
+            padding-bottom: .1rem
+            color: #6b6b6b
+            h2
+                font-size: .14rem
+                padding-bottom: .05rem
+            p
+                padding-left: .14rem
+                line-height: .22rem
+                font-size: .13rem
+    .easy
+        margin-top: .12rem
+        height: .44rem
+        line-height: .44rem   
+        background: #4f99f2
+        text-align: center
+        color: #ffffff
+        font-size: .14rem
+    .img
+        width: 100%
+        height: auto
+        background: #fff
+        border-bottom: 1px solid #ccc
+        padding-top: .12rem
+        img
+            display: block
+            width: 1.6rem
+            height: 2rem
+            margin: 0 auto
+            padding-bottom: .12rem
+    .ka
+        height: .44rem
+        line-height: .44rem
+        background: #ffffff
+        padding-left: .12rem
+        border-bottom: 1px solid #ccc
+        font-size: .14rem
+        color: #333
+    .pin
+        display: -webkit-flex
+        justify-content: space-around
+        padding-top: .1rem
+        padding-bottom: .1rem
+        border-bottom: 1px solid #ccc
+        background: #ffffff
+        
+        li
+            flex: 1
+            text-align: center
+            font-size: .14rem
+            border-right: 1px solid #ccc
+            p
+                
+            p:nth-child(2)
+                color: #4f99f2
+                padding-top: .05rem
+        li:nth-child(2)
+            border-right: none
+    .list
+        width: 100%
+        display: -webkit-flex 
+        flex-wrap: wrap
+        justify-content: space-between
+        background: #ffffff
+        color: #a0a0a0
+        padding-left: .1rem
+        padding-right: .1rem
+        box-sizing: border-box
+        padding-bottom: .12rem
+        border-bottom: 1px solid #ccc
+        li 
+            width: 45%
+            font-size: .1rem
+            padding-top: .08rem
+    .pho
+        padding-top: .14rem
+        padding-bottom: .14rem
+        padding-left: .12rem
+        padding-right: .12rem
+        background: #ffffff   
+        dl
+            display: -webkit-flex
+            justify-content: space-between
+            dt
+                width: .45rem
+                height: .45rem
+                line-height: .45rem
+                color: #fff
+                background: #4f99f2
+                border-radius: 10px
+                text-align: center
+                i
+                    font-size: .3rem  
+            dd
+                flex: 1
+                padding-left: .1rem
+                h3
+                    color: #333333
+                    font-size: .14rem
+                    font-weight: bold
+                p
+                    color: #959595
+                    font-size: .14rem
+                    padding-top: .05rem
+                    a
+                        color: #4f99f2
+                        padding-left: .05rem
+    .address
+        background: #fff
+        padding-bottom: .12rem
+        padding-left: .12rem
+        padding-right: .12rem
+        li
+            padding-top: .12rem
+            display: -webkit-flex
+            justify-content: space-between
+            font-size: .14rem
+            label
+                width: 50px
+                color: #666666
+            span
+                flex: 1
+                padding-left: .1rem
+    .map
+        padding-top: .12rem
+        background: #fff    
+        padding-left: .12rem
+        padding-right: .12rem   
+        margin-bottom: .12rem
+        height: 1.8rem
+        box-sizing: border-box
+        #allmap
+            width: 100%
+            height: 100%
+            margin-bottom: .12rem
+    .su
+        padding-top: .12rem
+        background: #fff
+        text-align: center
+        h3
+            font-size: .16rem
+            color: #4f99f2 
+            padding-bottom: .1rem                     
+        p
+            font-size: .14rem
+            color: #4f99f2                 
+            i:nth-child(5)
+                color: #999   
+    .liao
+        background: #fff
+        display: -webkit-flex 
+        flex-wrap: wrap
+        padding-bottom: .12rem
+        justify-content: space-around
+        dl
+            width: 48%
+            text-align: center
+            padding-top: .12rem
+            dt
+                width: .8rem
+                height: .8rem
+                border-radius: 100%
+                border: 1px solid #4f99f2 
+                margin: auto  
+                text-align: center 
+                line-height: .8rem
+                i
+                    font-size: 50px
+                    color: #4f99f2
+            dd
+                margin-top: .1rem  
+                color: #4f99f2
+    .tou
+        background: #fff
+        padding-top: .16rem
+        padding-bottom: .16rem   
+        color: #4f99f2  
+        text-align: center
+    .ce
+        background: #fff
+        display: -webkit-flex
+        justify-content: space-between
+        padding-left: .12rem
+        padding-right: .12rem
+        padding-bottom: .14rem
+        padding-top: .12rem
+        span
+            font-size: .14rem
+        .toggle-checkbox
+            display: inline-block
+        .toggle-checkbox input
+            display: none        
+        .toggle-checkbox .track
+            width: 25px
+            height: 25px
+            border: 1px solid #CCCCCC   
+            border-radius: 30px     
+        .toggle-checkbox .icon
+            width: 14px
+            height: 7px
+            display: none
+            margin-top: 6px
+            margin-left: 5px
+            border-bottom: 2px solid #CCCCCC
+            border-left: 2px solid #CCCCCC
+            -webkit-transform: rotate(-45deg)
+        .toggle-checkbox input:checked + .track .icon
+            display: block
+            border-color: #ffffff
+        .toggle-checkbox input:checked + .track
+            background: #4f99f2
+            border-color: #ffffff 
+    .product
+        padding-left: .12rem
+        padding-right: .12rem
+        background: #fff
+        padding-top: .08rem
+        padding-bottom: .08rem
+        color: #666666
+        text-align: center 
+        font-size: .14rem
+    .indent
+        background: #ffffff
+        padding-left: .12rem
+        padding-right: .12rem
+        text-indent: .32rem
+        line-height: .24rem
+        font-size: .14rem
+        letter-spacing: 2px
+    .xin
+        background: #fff
+        
+        padding-bottom: .14rem
+        border-bottom: 1px solid #ccc
+        padding-left: .05rem
+        padding-right: .05rem
+        display: -webkit-flex
+        justify-content: space-between
+        align-items: center
+        li
+            display: -webkit-flex
+            justify-content: space-between
+            align-items: center
+            font-size: .14rem
+            color: #333333
+            
+    .toggle-checkbox
+        display: inline-block
+        
+    .toggle-checkbox input
+        display: none        
+    .toggle-checkbox .track
+        width: 25px
+        height: 25px
+        margin-right: .05rem
+        
+        border: 1px solid #CCCCCC   
+        border-radius: 30px     
+    .toggle-checkbox .icon
+        width: 14px
+        height: 7px
+        display: none
+        margin-top: 6px
+        margin-left: 5px
+        border-bottom: 2px solid #CCCCCC
+        border-left: 2px solid #CCCCCC
+        -webkit-transform: rotate(-45deg)
+    .toggle-checkbox input:checked + .track .icon
+        display: block
+        border-color: #ffffff
+    .toggle-checkbox input:checked + .track
+        background: #4f99f2
+        border-color: #ffffff 
+    .jian 
+        background: #fff
+        li
+            padding-top: .2rem
+            padding-bottom: .2rem
+            border-bottom: 1px solid #ccc
+            padding-left: .12rem
+            padding-right: .12rem
+            display: -webkit-flex
+            justify-content: space-between
+            font-size: .15rem
+    .zui
+        background: #ffffff
+        width: 100%
+        display: -webkit-flex
+        flex-wrap: wrap
+        justify-content: space-between   
+        padding-left: .12rem
+        padding-right: .12rem
+        box-sizing: border-box  
+        padding-bottom: .12rem
+        dl 
+            width: 30%
+            dt img
+                width: 100%
+                height: 100%  
+            dd
+                span
+                    font-size: .12rem
+                p i
+                    font-size: 12px
+                    color: #4f99f2
+                p i:nth-child(5)
+                    
+                    color: #999999
+    .dao
+        height: .42rem
+        background: #eeeeee
+        line-height: .42rem
+        text-align: center
+.foot
+    height: .4rem
+    border-top: 1px solid #eeeeee
+    display: -webkit-flex  
+    justify-content: space-between 
+    background: #ffffff
+    border-top: 1px solid #ccc
+    a
+        flex: 1
+        dl
+            text-align: center
+            dt
+                padding-top: .01rem
+                
+            dd
+                font-size: .14rem
+        &:hover
+            color: #4183ff                       
+                    
+        
+ 
